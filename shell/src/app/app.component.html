@@ -1,0 +1,15 @@
+<ul>
+  <li [routerLink]="['/mfe1']">MicroFrontend1</li>
+  <li [routerLink]="['/mfe2']">MicroFrontend2</li>
+</ul>
+
+<button [routerLink]="['/home']">Go Back to Shell</button>
+
+<h2>
+  I'm the shell app, use above links to load the micro frontends running on other
+  ports.
+</h2>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
